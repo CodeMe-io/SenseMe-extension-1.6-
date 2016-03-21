@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1366">
+<PageBlocks>
+<Block genus-name="program" id="296">
+<Location>
+<X>55</X>
+<Y>19</Y>
+</Location>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="setup" position-type="single"/>
+<BlockConnector con-block-id="147" connector-kind="socket" connector-type="cmd" init-type="cmd" label="loop" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_defineBmp" id="147">
+<Location>
+<X>161</X>
+<Y>62</Y>
+</Location>
+<BeforeBlockId>296</BeforeBlockId>
+<AfterBlockId>157</AfterBlockId>
+<Sockets num-sockets="9">
+<BlockConnector con-block-id="148" connector-kind="socket" connector-type="string" init-type="string" label="name" position-type="single"/>
+<BlockConnector con-block-id="149" connector-kind="socket" connector-type="string" init-type="string" label="row 0" position-type="single"/>
+<BlockConnector con-block-id="150" connector-kind="socket" connector-type="string" init-type="string" label="row 1" position-type="single"/>
+<BlockConnector con-block-id="151" connector-kind="socket" connector-type="string" init-type="string" label="row 2" position-type="single"/>
+<BlockConnector con-block-id="152" connector-kind="socket" connector-type="string" init-type="string" label="row 3" position-type="single"/>
+<BlockConnector con-block-id="153" connector-kind="socket" connector-type="string" init-type="string" label="row 4" position-type="single"/>
+<BlockConnector con-block-id="154" connector-kind="socket" connector-type="string" init-type="string" label="row 5" position-type="single"/>
+<BlockConnector con-block-id="155" connector-kind="socket" connector-type="string" init-type="string" label="row 6" position-type="single"/>
+<BlockConnector con-block-id="156" connector-kind="socket" connector-type="string" init-type="string" label="row 7" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_defineBmp" id="157">
+<Location>
+<X>161</X>
+<Y>284</Y>
+</Location>
+<BeforeBlockId>147</BeforeBlockId>
+<AfterBlockId>167</AfterBlockId>
+<Sockets num-sockets="9">
+<BlockConnector con-block-id="158" connector-kind="socket" connector-type="string" init-type="string" label="name" position-type="single"/>
+<BlockConnector con-block-id="159" connector-kind="socket" connector-type="string" init-type="string" label="row 0" position-type="single"/>
+<BlockConnector con-block-id="160" connector-kind="socket" connector-type="string" init-type="string" label="row 1" position-type="single"/>
+<BlockConnector con-block-id="161" connector-kind="socket" connector-type="string" init-type="string" label="row 2" position-type="single"/>
+<BlockConnector con-block-id="162" connector-kind="socket" connector-type="string" init-type="string" label="row 3" position-type="single"/>
+<BlockConnector con-block-id="163" connector-kind="socket" connector-type="string" init-type="string" label="row 4" position-type="single"/>
+<BlockConnector con-block-id="164" connector-kind="socket" connector-type="string" init-type="string" label="row 5" position-type="single"/>
+<BlockConnector con-block-id="165" connector-kind="socket" connector-type="string" init-type="string" label="row 6" position-type="single"/>
+<BlockConnector con-block-id="166" connector-kind="socket" connector-type="string" init-type="string" label="row 7" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_defineBmp" id="167">
+<Location>
+<X>161</X>
+<Y>506</Y>
+</Location>
+<BeforeBlockId>157</BeforeBlockId>
+<AfterBlockId>187</AfterBlockId>
+<Sockets num-sockets="9">
+<BlockConnector con-block-id="168" connector-kind="socket" connector-type="string" init-type="string" label="name" position-type="single"/>
+<BlockConnector con-block-id="169" connector-kind="socket" connector-type="string" init-type="string" label="row 0" position-type="single"/>
+<BlockConnector con-block-id="170" connector-kind="socket" connector-type="string" init-type="string" label="row 1" position-type="single"/>
+<BlockConnector con-block-id="171" connector-kind="socket" connector-type="string" init-type="string" label="row 2" position-type="single"/>
+<BlockConnector con-block-id="172" connector-kind="socket" connector-type="string" init-type="string" label="row 3" position-type="single"/>
+<BlockConnector con-block-id="173" connector-kind="socket" connector-type="string" init-type="string" label="row 4" position-type="single"/>
+<BlockConnector con-block-id="175" connector-kind="socket" connector-type="string" init-type="string" label="row 5" position-type="single"/>
+<BlockConnector con-block-id="174" connector-kind="socket" connector-type="string" init-type="string" label="row 6" position-type="single"/>
+<BlockConnector con-block-id="176" connector-kind="socket" connector-type="string" init-type="string" label="row 7" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_defineBmp" id="187">
+<Location>
+<X>161</X>
+<Y>728</Y>
+</Location>
+<BeforeBlockId>167</BeforeBlockId>
+<AfterBlockId>301</AfterBlockId>
+<Sockets num-sockets="9">
+<BlockConnector con-block-id="188" connector-kind="socket" connector-type="string" init-type="string" label="name" position-type="single"/>
+<BlockConnector con-block-id="189" connector-kind="socket" connector-type="string" init-type="string" label="row 0" position-type="single"/>
+<BlockConnector con-block-id="190" connector-kind="socket" connector-type="string" init-type="string" label="row 1" position-type="single"/>
+<BlockConnector con-block-id="191" connector-kind="socket" connector-type="string" init-type="string" label="row 2" position-type="single"/>
+<BlockConnector con-block-id="192" connector-kind="socket" connector-type="string" init-type="string" label="row 3" position-type="single"/>
+<BlockConnector con-block-id="193" connector-kind="socket" connector-type="string" init-type="string" label="row 4" position-type="single"/>
+<BlockConnector con-block-id="195" connector-kind="socket" connector-type="string" init-type="string" label="row 5" position-type="single"/>
+<BlockConnector con-block-id="194" connector-kind="socket" connector-type="string" init-type="string" label="row 6" position-type="single"/>
+<BlockConnector con-block-id="196" connector-kind="socket" connector-type="string" init-type="string" label="row 7" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="301">
+<Location>
+<X>161</X>
+<Y>950</Y>
+</Location>
+<BeforeBlockId>187</BeforeBlockId>
+<AfterBlockId>297</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="302" connector-kind="socket" connector-type="number" init-type="number" label="variable" position-type="single"/>
+<BlockConnector con-block-id="303" connector-kind="socket" connector-type="number" init-type="number" label="value" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_displayBMP" id="297">
+<Location>
+<X>161</X>
+<Y>1004</Y>
+</Location>
+<BeforeBlockId>301</BeforeBlockId>
+<AfterBlockId>299</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="298" connector-kind="socket" connector-type="string" init-type="string" label="var_name" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="299">
+<Location>
+<X>161</X>
+<Y>1034</Y>
+</Location>
+<BeforeBlockId>297</BeforeBlockId>
+<AfterBlockId>304</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="309" connector-kind="socket" connector-type="number" init-type="number" label="milliseconds" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_displayBMP" id="304">
+<Location>
+<X>161</X>
+<Y>1064</Y>
+</Location>
+<BeforeBlockId>299</BeforeBlockId>
+<AfterBlockId>306</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="305" connector-kind="socket" connector-type="string" init-type="string" label="var_name" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="306">
+<Location>
+<X>161</X>
+<Y>1094</Y>
+</Location>
+<BeforeBlockId>304</BeforeBlockId>
+<AfterBlockId>310</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="308" connector-kind="socket" connector-type="number" init-type="number" label="milliseconds" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_displayBMP" id="310">
+<Location>
+<X>161</X>
+<Y>1124</Y>
+</Location>
+<BeforeBlockId>306</BeforeBlockId>
+<AfterBlockId>312</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="311" connector-kind="socket" connector-type="string" init-type="string" label="var_name" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="312">
+<Location>
+<X>161</X>
+<Y>1154</Y>
+</Location>
+<BeforeBlockId>310</BeforeBlockId>
+<AfterBlockId>314</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="313" connector-kind="socket" connector-type="number" init-type="number" label="milliseconds" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="SenseMeLEDM_displayBMP" id="314">
+<Location>
+<X>161</X>
+<Y>1184</Y>
+</Location>
+<BeforeBlockId>312</BeforeBlockId>
+<AfterBlockId>316</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="315" connector-kind="socket" connector-type="string" init-type="string" label="var_name" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="316">
+<Location>
+<X>161</X>
+<Y>1214</Y>
+</Location>
+<BeforeBlockId>314</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="317" connector-kind="socket" connector-type="number" init-type="number" label="milliseconds" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="317">
+<Label>delayTime</Label>
+<Location>
+<X>347</X>
+<Y>1217</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="316" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="315">
+<Label>frame4</Label>
+<Location>
+<X>337</X>
+<Y>1187</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="314" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="313">
+<Label>delayTime</Label>
+<Location>
+<X>347</X>
+<Y>1157</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="312" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="311">
+<Label>frame3</Label>
+<Location>
+<X>337</X>
+<Y>1127</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="310" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="308">
+<Label>delayTime</Label>
+<Location>
+<X>347</X>
+<Y>1097</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="306" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="305">
+<Label>frame2</Label>
+<Location>
+<X>337</X>
+<Y>1067</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="304" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="309">
+<Label>delayTime</Label>
+<Location>
+<X>347</X>
+<Y>1037</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="299" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="298">
+<Label>frame1</Label>
+<Location>
+<X>337</X>
+<Y>1007</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="297" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="303">
+<Label>100</Label>
+<Location>
+<X>379</X>
+<Y>977</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="301" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="variable_number" id="302">
+<Label>delayTime</Label>
+<Location>
+<X>379</X>
+<Y>953</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="301" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="196">
+<Label>00000100</Label>
+<Location>
+<X>313</X>
+<Y>923</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="194">
+<Label>01000100</Label>
+<Location>
+<X>313</X>
+<Y>899</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="195">
+<Label>00100100</Label>
+<Location>
+<X>313</X>
+<Y>875</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="193">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>851</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="192">
+<Label>01011110</Label>
+<Location>
+<X>313</X>
+<Y>827</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="191">
+<Label>00111000</Label>
+<Location>
+<X>313</X>
+<Y>803</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="190">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>779</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="189">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>755</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="188">
+<Label>frame4</Label>
+<Location>
+<X>313</X>
+<Y>731</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="187" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="176">
+<Label>00100000</Label>
+<Location>
+<X>313</X>
+<Y>701</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="174">
+<Label>00100100</Label>
+<Location>
+<X>313</X>
+<Y>677</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="175">
+<Label>00011100</Label>
+<Location>
+<X>313</X>
+<Y>653</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="173">
+<Label>00111100</Label>
+<Location>
+<X>313</X>
+<Y>629</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="172">
+<Label>00111000</Label>
+<Location>
+<X>313</X>
+<Y>605</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="171">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>581</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="170">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>557</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="169">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>533</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="168">
+<Label>frame3</Label>
+<Location>
+<X>313</X>
+<Y>509</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="167" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="166">
+<Label>00001000</Label>
+<Location>
+<X>313</X>
+<Y>479</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="165">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>455</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="164">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>431</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="163">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>407</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="162">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>383</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="161">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>359</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="160">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>335</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="159">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>311</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="158">
+<Label>frame2</Label>
+<Location>
+<X>313</X>
+<Y>287</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="157" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="156">
+<Label>00001000</Label>
+<Location>
+<X>313</X>
+<Y>257</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="155">
+<Label>00111000</Label>
+<Location>
+<X>313</X>
+<Y>233</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="154">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>209</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="153">
+<Label>00011100</Label>
+<Location>
+<X>313</X>
+<Y>185</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="152">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>161</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="151">
+<Label>00011000</Label>
+<Location>
+<X>313</X>
+<Y>137</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="150">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>113</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_00" id="149">
+<Label>00001100</Label>
+<Location>
+<X>313</X>
+<Y>89</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="SM_name" id="148">
+<Label>frame1</Label>
+<Location>
+<X>313</X>
+<Y>65</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="string" init-type="string" label="00000000" position-type="single"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

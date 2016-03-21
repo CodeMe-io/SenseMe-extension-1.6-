@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For SenseMe Accelerometer
+####################################### 
+# Class
+#######################################
+
+SenseMeLEDMatrix KEYWORD1
+SenseMeLEDOne KEYWORD1
+SenseMeLEDTwo KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+begin		KEYWORD2
+end		KEYWORD2
+xyz		KEYWORD2
+xyzRaw		KEYWORD2
+#######################################
+# Constants
+#######################################
+ 
+//NEO_GRB		LITERAL1
+
